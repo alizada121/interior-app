@@ -1,0 +1,74 @@
+.menu-container{
+    width: 40%;
+    
+}
+
+
+.menu{
+   
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   font-family: 'Montserrat', sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 20px;
+   line-height: 24px;
+   color: #6B7E9B;
+   transition: 0.3s;
+   margin-right: 5px;
+
+    
+}
+
+.main:hover{
+    color: #6B7E9B;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: 2px #435877 solid;
+    transition: 0.3s;
+}
+
+.portfolio-menu:hover{
+    color: #6B7E9B;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: 2px #435877 solid;
+}
+
+.services:hover{
+    color: #6B7E9B;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    border-bottom: 2px #435877 solid;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .main{
+        margin-right: 5px;
+    }
+
+    .services{
+        margin-right: 5px;
+    }
+}
+
+
+@media screen and (min-width:2000px ) and (max-width:2560px ) {
+    .menu{
+        font-size: 33px;
+    }
+}
+
+
+
+

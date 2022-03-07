@@ -1,0 +1,103 @@
+
+
+.form-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 2px solid #435877;
+    border-top: 2px solid #435877;
+    padding-top: 48px;
+    padding-bottom: 48px;
+  
+
+   
+}
+
+form{
+    width: 50%;
+}
+.form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-row1{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-bottom: 25px;
+   
+}
+
+.form-row1 input{
+    width: 40%;
+    padding: 10px;
+    padding-right: 0%;
+    padding-left: 1px;
+}
+
+
+
+.form-row2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    
+}
+.form-row2 select{
+    width: 41%;
+    padding: 10px;
+    
+}
+
+.form-row2 input{
+    width: 41%;
+    padding: 10px;
+    background-color: #435877;
+    color: white;
+
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+
+    border: none;
+}
+
+
+
+.form-text-container{
+    width: 50%;
+}
+
+.form-text-heading{
+    width: 100%;
+}
+.form-text-heading h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 0;
+    color: #435877;
+    text-align: left;
+}
+
+.form-text-para{
+    font-family: Montserrat;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 150%;
+width: 60%;
+/* or 22px */
+
+
+color: #435877;
+text-align: left;
+}
+

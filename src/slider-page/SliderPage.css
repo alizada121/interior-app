@@ -1,0 +1,44 @@
+
+.sliderPage{
+    /* position: absolute; */
+    /* top: 0; */
+    background-color: #FEFCF6;
+    width: 87%;
+    margin-left: 10%;
+    /* margin-right: 3%; */
+    margin-top: 10%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 158px;
+}
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+    .sliderPage{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
+
+@media screen and (min-width: 370px) and (max-width: 414px) {
+    .sliderPage{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    .sliderPage{
+        flex-direction: column;
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        
+    }
+}
