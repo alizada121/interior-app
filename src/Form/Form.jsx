@@ -27,9 +27,9 @@ function Form() {
                 <div className='form-row2'>
                    
                     <select name='change tariff'>
-                        <option value="volvo">XX</option>
-                        <option value="saab">XX</option>
-                        <option value="fiat">XX</option>
+                        <option>Select tariff</option>
+                        <option>XX</option>
+                        <option>XX</option>
                     </select>
                     <input type="submit" value="Send"></input>
                 </div>

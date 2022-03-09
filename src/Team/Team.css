@@ -1,0 +1,403 @@
+.team-container{
+    width: 100%;
+    margin-bottom: 175px;
+    margin-top: 175px;
+}
+.team-header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+   
+}
+
+.team-empty-left{
+    width: 65%;
+    height: 0;
+    border: 1px solid #435877;
+    margin-top: 23px;
+    background:#435877 ;
+}
+
+.team-heading{
+    width: 15%;
+}
+
+.team-heading h1{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 44px;
+    /* identical to box height */
+    margin: 0;
+
+    color: #435877;
+}
+
+.team-empty-right{
+    width: 20%;
+    height: 0;
+    border: 1px solid #435877;
+    margin-top: 23px;
+    background:#435877 ;
+}
+
+
+.team-general{
+    margin-top: 95px;
+    display: flex;
+    flex-direction: row; 
+    width: 100%;
+
+    position: relative;
+}
+
+.changable-team{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 75%;
+    position: absolute;
+    opacity: 1;
+
+    
+}
+
+.team-text{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 13%;
+}
+
+.team-text-para{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #435877;
+    text-align: left;
+}
+
+.team-text-para p{
+    margin: 0;
+}
+
+.team-member-text h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #9C917B;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 40px;
+
+}
+
+.team-member-text p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;  
+    text-align: left;
+    color: #9C917B;
+    margin: 0;
+
+}
+
+.team-image-container{
+    width: 50%;
+}
+
+.team-image img{
+    width: 100%;
+}
+
+
+
+
+.team-list-container{
+    width: 10%;
+     margin-left: 10%;
+    position: absolute;
+    right: 10%; 
+
+    
+   /* kecici bele yaz */
+    /* margin-left: 1000px; */
+   
+   
+}
+
+.team-list p{
+    width: 100%;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #CCD7E9;
+    transition: 0.4s;
+    text-align: left;
+
+}
+
+.team-list p:hover{
+    font-weight: 600;
+    text-decoration-line: underline;  
+    transition: 0.4s;  
+    color: #435877;
+
+}
+
+.main-team{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    text-decoration-line: underline;
+    
+    color: #435877 !important;
+}
+
+
+
+/***************DIV2*****************/
+.changable-team2{
+    /* display: flex; */
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 60%;
+
+    position: absolute;
+    /* top:0; */
+   /* opacity: 0; */
+   display: none;
+    
+}
+.team-text2{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 13%;
+}
+
+.team-text-para2{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #435877;
+    text-align: left;
+}
+
+.team-text-para2 p{
+    margin: 0;
+}
+
+.team-member-text2 h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #9C917B;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 40px;
+
+}
+
+.team-member-text2 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;  
+    text-align: left;
+    color: #9C917B;
+    margin: 0;
+
+}
+
+.team-image-container2{
+    width: 50%;
+}
+
+.team-image2 img{
+    width: 100%;
+}
+
+
+/***************DIV3*****************/
+
+.changable-team3{
+    /* display: flex; */
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 60%;
+    position: absolute;
+    /* top:0; */
+    display: none;
+}
+.team-text3{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 13%;
+}
+
+.team-text-para3{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #435877;
+    text-align: left;
+}
+
+.team-text-para3 p{
+    margin: 0;
+}
+
+.team-member-text3 h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #9C917B;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 40px;
+
+}
+
+.team-member-text3 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;  
+    text-align: left;
+    color: #9C917B;
+    margin: 0;
+
+}
+
+.team-image-container3{
+    width: 50%;
+}
+
+.team-image3 img{
+    width: 100%;
+}
+
+
+/*******************DIV4************/
+
+.changable-team4{
+    /* display: flex; */
+    flex-direction: row;
+    /* justify-content: space-around; */
+    width: 60%;
+    position: absolute;
+    /* top:0; */
+    display: none;
+
+}
+.team-text4{
+    width: 50%;
+    margin-left: 7%;
+    margin-right: 13%;
+}
+
+.team-text-para4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+    color: #435877;
+    text-align: left;
+}
+
+.team-text-para4 p{
+    margin: 0;
+}
+
+.team-member-text4 h4{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: left;
+    color: #9C917B;
+    margin: 0;
+    margin-bottom: 8px;
+    margin-top: 40px;
+
+}
+
+.team-member-text4 p{
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 18px;  
+    text-align: left;
+    color: #9C917B;
+    margin: 0;
+
+}
+
+.team-image-container4{
+    width: 50%;
+}
+
+.team-image4 img{
+    width: 100%;
+}
+
+
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+  
+
+    
+
+    
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+    
+ }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+
+   
+    
+}

@@ -16,7 +16,7 @@
 }
 
 .slider-description{
-     
+     background-color: #FEFCF6;
      position: absolute;
      bottom: 0;
      right: 0;
@@ -92,7 +92,7 @@
 }
 
 .order-button-text-mobile:hover{
-     background-color: #FEFCF6;
+    
      color: #435877;
      transition: 0.3s;
 }
