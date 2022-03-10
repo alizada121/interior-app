@@ -1,13 +1,68 @@
-import React from 'react'
+import React,{useRef,useEffect} from 'react'
+import { gsap } from "gsap";
+
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import "../portfolio/PortfolioHeader.css"
+
+
 function PortfolioHeader() {
+     const PortEmptyLeftRef=useRef();
+     const PortEmptyRightRef=useRef();
+     gsap.registerPlugin(ScrollTrigger);
+
+     
+
+     useEffect(() => {
+        gsap.fromTo(PortEmptyLeftRef.current,  {
+            
+                width: "0%"
+            },
+            {
+             width: "31%",
+             duration:1,
+             scrollTrigger:{
+                 
+                 trigger:".portfolio-container",
+                 start:" 50% 20% ",
+                 end:"50% 90%",
+                //  markers:true
+             }
+            
+            
+            
+            });
+
+
+
+            gsap.fromTo(PortEmptyRightRef.current,  {
+            
+                width: "0%"
+            },
+            {
+             width: "31%",
+             duration:1,
+             scrollTrigger:{
+                
+                 trigger:".portfolio-container",
+                 start:" 50% 20% ",
+                 end:"50% 90%",
+                //  markers:true
+             }
+            
+            
+            
+            });
+      },[]);
+
+
+
   return (
-    <div className='portfolioHeader-container'>
+    <div className='portfolioHeader-container' id="portfolioHeader-id">
         <div className='portfolioHeader'>
-            <div className='portfolioHeader-empty left'> </div>
+            <div className='portfolioHeader-empty left' ref={PortEmptyLeftRef} > </div>
             <div className='portfolioHeader-heading'> <h4>Portfolio of our works</h4></div>
-            <div className='portfolioHeader-empty right'> </div>     
+            <div className='portfolioHeader-empty right'  ref={PortEmptyRightRef} id="portfolioHeader-empty-right"> </div>     
         </div>
 
         <div className='portfolioHeader-text'>

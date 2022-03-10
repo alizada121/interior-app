@@ -1,4 +1,7 @@
-import React from 'react'
+import React,{useRef,useEffect} from 'react'
+import { gsap } from "gsap";
+
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import "../Services/Services.css"
 
 import services1 from "../assets/services1.png"
@@ -6,14 +9,63 @@ import services2 from "../assets/services2.png"
 import services3 from "../assets/services3.png"
 
 function Services() {
+
+    gsap.registerPlugin(ScrollTrigger);
+    const leftServRef=useRef();
+    const rightServRef=useRef();
+     
+
+    useEffect(() => {
+       gsap.fromTo(leftServRef.current,  {
+           
+               width: "0%"
+           },
+           {
+            width: "31%",
+            duration:1,
+            scrollTrigger:{
+                
+                trigger:".services-container",
+                start:" 50% 20% ",
+                end:"50% 90%",
+               //  markers:true
+            }
+           
+           
+           
+           });
+
+
+
+           gsap.fromTo(rightServRef.current,  {
+           
+               width: "0%"
+           },
+           {
+            width: "31%",
+            duration:1,
+            scrollTrigger:{
+               
+                trigger:".services-container",
+                start:" 50% 20% ",
+                end:"50% 90%",
+               //  markers:true
+            }
+           
+           
+           
+           });
+     },[]);
+
+
   return (
     <div className='services-container'>
         <div className='services-header'>
-            <div className='services-header-empty leftServ'></div>
-            <div className='services-heading'>
+            <div className='services-header-empty leftServ' ref={leftServRef}></div>
+            <div className='services-heading' >
                 <h2>Types of services</h2>
             </div>
-            <div className='services-header-empty rightServ' ></div>
+            <div className='services-header-empty rightServ' ref={rightServRef}></div>
 
         </div>
 

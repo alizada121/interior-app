@@ -1,7 +1,41 @@
-import React from 'react'
+
+
+import React,{useRef,useEffect} from 'react'
+import { gsap } from "gsap";
+
+import { ScrollTrigger } from 'gsap/ScrollTrigger';
 
 import "../Advantages/Advantages.css"
 function Advantages() {
+    gsap.registerPlugin(ScrollTrigger);
+    const AdvantagesEmptyRef=useRef()
+
+    useEffect(() => {
+
+        
+       
+
+
+            gsap.fromTo(AdvantagesEmptyRef.current,  {
+            
+                width: "0%"
+            },
+            {
+             width: "70%",
+             duration:1,
+             scrollTrigger:{
+                
+                 trigger:".advantages-container",
+                 start:" 40% 20% ",
+                 end:"50% 90%",
+                //  markers:true
+             }
+            
+            
+            
+            });
+      },[]);
+
   return (
     <div className='advantages-container'>
 
@@ -10,7 +44,7 @@ function Advantages() {
                 <h2>Our advantages</h2>
             </div>
 
-            <div className='advantages-header-empty'></div>
+            <div className='advantages-header-empty' ref={AdvantagesEmptyRef}></div>
         </div>
 
         <div className='advantages-texts'>

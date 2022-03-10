@@ -1,15 +1,13 @@
 .project-container{
     display: flex;
     flex-direction: row;
-    /*kecici*/
-    width: 126%;
-    margin-left: -13.5%;
+    width: 100%;
     justify-content: space-between;
     padding-top: 80px;
     padding-bottom: 70px;
     background-color: #EFEADE;
     border-top: 1px solid #435877;
-    border-bottom: 1px solid #435877;
+    border-bottom: 1.5px solid #435877;
 
     
 }
@@ -29,6 +27,7 @@
 
 .project-form-container{
     width: 45%;
+    margin-right: 5%;
 }
 
 .project-form-heading h2{
@@ -124,3 +123,157 @@
     border: none;
 
 }
+
+@media screen and (min-width: 320px) and (max-width: 370px) {
+    .project-image{
+        display: none;
+    }
+
+    .project-form-container{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0;
+    }
+
+    .project-form-heading h2{
+        font-size: 24px;
+        line-height: 29px;
+       
+    }
+
+    .project-form-heading p {
+        width: 100%;
+       
+        
+      
+    }
+
+    .project-form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-form-row input{
+        width: 90%;
+      
+    }
+
+    .number{
+        width: 90%;
+    }
+
+    .submit{
+        width: 96%;
+        
+    }
+    
+
+}
+@media screen and (min-width: 370px) and (max-width: 414px) {
+
+    .project-image{
+        display: none;
+    }
+
+    .project-form-container{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0;
+    }
+
+    .project-form-heading h2{
+        font-size: 24px;
+        line-height: 29px;
+       
+    }
+
+    .project-form-heading p {
+        width: 100%;
+       
+        
+      
+    }
+
+    .project-form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-form-row input{
+        width: 90%;
+      
+    }
+
+    .number{
+        width: 90%;
+    }
+
+    .submit{
+        width: 96%;
+        
+    }
+   
+}
+@media screen and (min-width: 414px) and (max-width: 768px) {
+
+    .project-image{
+        display: none;
+    }
+
+    .project-form-container{
+        width: 90%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0;
+    }
+
+    .project-form-heading h2{
+        font-size: 24px;
+        line-height: 29px;
+       
+    }
+
+    .project-form-heading p {
+        width: 100%;
+       
+        
+      
+    }
+
+    .project-form-row{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project-form-row input{
+        width: 90%;
+      
+    }
+
+    .number{
+        width: 90%;
+    }
+
+    .submit{
+        width: 93%;
+        
+    }
+   
+    
+ }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+   
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
+
+
+
+@media screen and (min-width: 2000px) and (max-width: 2560px) {
+    
+}
+

@@ -1,3 +1,5 @@
+import React, {  Suspense } from "react";
+
 import Advantages from './Advantages/Advantages';
 import './App.css';
 import Team from './Team/Team';
@@ -13,6 +15,8 @@ function App() {
   return (
     <div className="App">
      <Header/>
+
+     
      <SliderPage/>
      <Portfolio/>
      <Form/>
