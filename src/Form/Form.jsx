@@ -31,7 +31,7 @@ function Form() {
                         <option>XX</option>
                         <option>XX</option>
                     </select>
-                    <input type="submit" value="Send"></input>
+                    <input type="submit" value="Send" className='submit'></input>
                 </div>
 
             </div>

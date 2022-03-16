@@ -22,10 +22,10 @@ function Slider() {
       sliderRef3.current.style.opacity="0";
       sliderRef4.current.style.opacity="0";
 
-      emptyDivRef1.current.style.background="#435877"
-      emptyDivRef2.current.style.background="#B4A890"
-      emptyDivRef3.current.style.background="#B4A890"
-      emptyDivRef4.current.style.background="#B4A890"
+      emptyDivRef1.current.style.borderBottom=" 4px solid #435877"
+      emptyDivRef2.current.style.borderBottom=" 4px solid #B4A890"
+      emptyDivRef3.current.style.borderBottom="4px solid #B4A890"
+      emptyDivRef4.current.style.borderBottom="4px solid #B4A890"
   }
 
   const sliderClick2= () =>{
@@ -35,10 +35,10 @@ function Slider() {
     sliderRef3.current.style.opacity="0";
     sliderRef4.current.style.opacity="0";
 
-    emptyDivRef1.current.style.background="#B4A890"
-    emptyDivRef2.current.style.background="#435877"
-    emptyDivRef3.current.style.background="#B4A890"
-    emptyDivRef4.current.style.background="#B4A890"
+    emptyDivRef1.current.style.borderBottom="4px solid #B4A890"
+    emptyDivRef2.current.style.borderBottom=" 4px solid #435877"
+    emptyDivRef3.current.style.borderBottom="4px solid #B4A890"
+    emptyDivRef4.current.style.borderBottom="4px solid #B4A890"
    
   }
 
@@ -49,10 +49,10 @@ function Slider() {
     sliderRef3.current.style.opacity="1";
     sliderRef4.current.style.opacity="0";
 
-    emptyDivRef1.current.style.background="#B4A890"
-    emptyDivRef2.current.style.background="#B4A890"
-    emptyDivRef3.current.style.background="#435877"
-    emptyDivRef4.current.style.background="#B4A890"
+    emptyDivRef1.current.style.borderBottom="4px solid #B4A890"
+    emptyDivRef2.current.style.borderBottom="4px solid #B4A890"
+    emptyDivRef3.current.style.borderBottom=" 4px solid #435877"
+    emptyDivRef4.current.style.borderBottom="4px solid #B4A890"
   }
 
   const sliderClick4= () =>{
@@ -62,10 +62,10 @@ function Slider() {
     sliderRef3.current.style.opacity="0";
     sliderRef4.current.style.opacity="1";
 
-    emptyDivRef1.current.style.background="#B4A890"
-    emptyDivRef2.current.style.background="#B4A890"
-    emptyDivRef3.current.style.background="#B4A890"
-    emptyDivRef4.current.style.background="#435877"
+    emptyDivRef1.current.style.borderBottom="4px solid #B4A890"
+    emptyDivRef2.current.style.borderBottom="4px solid #B4A890"
+    emptyDivRef3.current.style.borderBottom="4px solid #B4A890"
+    emptyDivRef4.current.style.borderBottom=" 4px solid #435877"
   }
 
   return (

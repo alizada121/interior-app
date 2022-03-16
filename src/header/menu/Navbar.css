@@ -96,6 +96,40 @@
 }
 
 
+.mobile-menu-container{
+    width: 350%;
+    position: absolute;
+    right: 100%;
+    top: 100%;
+    display: none;
+}
+
+.mobile-menu{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mobile-menu-div p{
+
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 24px;
+transition: 0.5s;
+color: #6B7E9B;
+
+}
+
+.mobile-menu-div p:hover{
+    border-bottom: 2px solid #435877;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+
 
 
 

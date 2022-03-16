@@ -151,7 +151,7 @@
 
     .advantages-container{
         background-color: #E9E0CC33;
-        margin-top: 20%;
+        /* margin-top: 20%; */
     }
     .advantages-texts{
         flex-direction: column;
@@ -185,7 +185,7 @@
        
     }
     .advantages-container{
-        margin-top: 20%;
+        /* margin-top: 20%; */
     }
     
 

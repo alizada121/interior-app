@@ -18,16 +18,17 @@ function Advantages() {
 
             gsap.fromTo(AdvantagesEmptyRef.current,  {
             
-                width: "0%"
+                scaleX:0
             },
             {
-             width: "70%",
-             duration:1,
+                scaleX:1,
+             duration:0.7,
+             transformOrigin: "0 0",
              scrollTrigger:{
                 
                  trigger:".advantages-container",
-                 start:" 40% 20% ",
-                 end:"50% 90%",
+                 start:" 15% 70% ",
+                 end:"80% 90%",
                 //  markers:true
              }
             

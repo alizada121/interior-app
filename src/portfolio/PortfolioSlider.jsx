@@ -20,12 +20,16 @@ function PortfolioSlider() {
         portfolioSliderButtonRef1.current.style.display="block"
         portfolioSliderDescriptionRef1.current.style.display="none"
         portfolio1Ref.current.style.opacity="0.3"
+        portfolio1Ref.current.style.transition="0.7s"
+       
+
     }
 
     const hoverOff1=()=>{
         portfolioSliderButtonRef1.current.style.display="none"
         portfolioSliderDescriptionRef1.current.style.display="block"
         portfolio1Ref.current.style.opacity="1"
+        portfolio1Ref.current.style.transition="0.7s"
 
     }
 
@@ -39,12 +43,14 @@ function PortfolioSlider() {
         portfolioSliderButtonRef2.current.style.display="block"
         portfolioSliderDescriptionRef2.current.style.display="none"
         portfolio2Ref.current.style.opacity="0.3"
+        portfolio2Ref.current.style.transition="0.7s"
     }
 
     const hoverOff2=()=>{
         portfolioSliderButtonRef2.current.style.display="none"
         portfolioSliderDescriptionRef2.current.style.display="block"
         portfolio2Ref.current.style.opacity="1"
+        portfolio2Ref.current.style.transition="0.7s"
 
     }
 
@@ -58,12 +64,14 @@ function PortfolioSlider() {
         portfolioSliderButtonRef3.current.style.display="block"
         portfolioSliderDescriptionRef3.current.style.display="none"
         portfolio3Ref.current.style.opacity="0.3"
+        portfolio3Ref.current.style.transition="0.7s"
     }
 
     const hoverOff3=()=>{
         portfolioSliderButtonRef3.current.style.display="none"
         portfolioSliderDescriptionRef3.current.style.display="block"
         portfolio3Ref.current.style.opacity="1"
+        portfolio3Ref.current.style.transition="0.7s"
 
     }
 
@@ -73,59 +81,59 @@ function PortfolioSlider() {
     const portfolioSliderLine4Ref=useRef();
 
     const portfolioSliderLine1 =()=>{
-        portfolioSliderLine1Ref.current.style.border=" border: #435877 solid 1.5px;"
-        portfolioSliderLine1Ref.current.style.background=" #435877"
+        // portfolioSliderLine1Ref.current.style.border=" border: solid 4px #435877 solid 1.5px;"
+        portfolioSliderLine1Ref.current.style.borderBottom=" solid 4px #435877"
 
-        portfolioSliderLine2Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine2Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine2Ref.current.style.border=" border: #B4A890 solid 1.5px;"
+        portfolioSliderLine2Ref.current.style.borderBottom=" solid 4px  #B4A890"
 
-        portfolioSliderLine3Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine3Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine3Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine3Ref.current.style.borderBottom=" solid 4px  #B4A890"
 
-        portfolioSliderLine4Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine4Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine4Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine4Ref.current.style.borderBottom=" solid 4px  #B4A890"
     }
 
     const portfolioSliderLine2 =()=>{
-        portfolioSliderLine2Ref.current.style.border=" border: #435877 solid 1.5px;"
-        portfolioSliderLine2Ref.current.style.background=" #435877"
+        // portfolioSliderLine2Ref.current.style.border=" border: solid 4px #435877 solid 1.5px;"
+        portfolioSliderLine2Ref.current.style.borderBottom=" solid 4px #435877"
 
-        portfolioSliderLine1Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine1Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine1Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine1Ref.current.style.borderBottom=" solid 4px  #B4A890"
 
-        portfolioSliderLine3Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine3Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine3Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine3Ref.current.style.borderBottom=" solid 4px  #B4A890"
 
-        portfolioSliderLine4Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine4Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine4Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine4Ref.current.style.borderBottom=" solid 4px  #B4A890"
     }
 
     const portfolioSliderLine3 =()=>{
-        portfolioSliderLine3Ref.current.style.border=" border: #435877 solid 1.5px;"
-        portfolioSliderLine3Ref.current.style.background=" #435877"
+        // portfolioSliderLine3Ref.current.style.border=" border: solid 4px #435877 solid 1.5px;"
+        portfolioSliderLine3Ref.current.style.borderBottom=" solid 4px #435877"
 
-        portfolioSliderLine2Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine2Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine2Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine2Ref.current.style.borderBottom=" solid 4px  #B4A890"
 
-        portfolioSliderLine1Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine1Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine1Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine1Ref.current.style.borderBottom=" solid 4px  #B4A890"
 
-        portfolioSliderLine4Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine4Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine4Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine4Ref.current.style.borderBottom=" solid 4px  #B4A890"
     }
 
     const portfolioSliderLine4 =()=>{
-        portfolioSliderLine4Ref.current.style.border=" border: #435877 solid 1.5px;"
-        portfolioSliderLine4Ref.current.style.background=" #435877"
+        // portfolioSliderLine4Ref.current.style.border=" border: solid 4px #435877 solid 1.5px;"
+        portfolioSliderLine4Ref.current.style.borderBottom=" solid 4px #435877"
 
-        portfolioSliderLine2Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine2Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine2Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine2Ref.current.style.borderBottom=" solid 4px  #B4A890"
 
-        portfolioSliderLine3Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine3Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine3Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine3Ref.current.style.borderBottom=" solid 4px  #B4A890"
 
-        portfolioSliderLine1Ref.current.style.border=" border: #B4A890 solid 1.5px;"
-        portfolioSliderLine1Ref.current.style.background=" #B4A890"
+        // portfolioSliderLine1Ref.current.style.border=" border: solid 4px  #B4A890 solid 1.5px;"
+        portfolioSliderLine1Ref.current.style.borderBottom=" solid 4px  #B4A890"
     }
 
 

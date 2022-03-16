@@ -1,8 +1,9 @@
 import React,{useState,useRef} from 'react'
+import {Link,Route} from 'react-router-dom'
 import Contact from './Contact'
 import Menu from './Menu'
 
-import { Link } from 'react-router-dom';
+
 
 import "../menu/Navbar.css"
 import { compose } from 'redux'
@@ -11,7 +12,8 @@ import { compose } from 'redux'
 
 function Navbar() {
   const menuBtnRef=useRef();
-  const [open,setOpen]=useState(false);
+  const MobileMenuRef=useRef();
+  const [open,setOpen]=useState(true);
   
   
   const hamburger=()=>{
@@ -21,12 +23,12 @@ function Navbar() {
       console.log("Salam")
       
 
-      
+      MobileMenuRef.current.style.display="block"
       setOpen(false)
     }else{
       console.log("sagol")
 
-      
+      MobileMenuRef.current.style.display="none"
       setOpen(true)
       
     }
@@ -39,11 +41,31 @@ function Navbar() {
         <Contact/>
       </div>
       
-      <div  id="menu-btn" className={` menu-btn ${ open ? " open" : ""}`}  ref={menuBtnRef} onClick={hamburger}>
+      <div  id="menu-btn" className={` menu-btn ${ !open ? " open" : ""}`}  ref={menuBtnRef} onClick={hamburger}>
         <div className="menu-btn-burger">
+       
 
         </div>
     </div>
+
+   
+    <div className='mobile-menu-container' ref={MobileMenuRef}> 
+    <div className='mobile-menu'>
+     
+        <div className='mobile-menu-div'><p>Services</p></div>
+        <div className='mobile-menu-div'><p>Portfolio</p></div>
+        <div className='mobile-menu-div'><p>Contact</p></div>
+     
+
+
+    </div>
+    
+
+    
+
+    </div>
+
+    
    
         
 

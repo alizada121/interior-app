@@ -39,8 +39,15 @@
 .portfolioSlider-button button{
     width: 100%;
     border: none;
-    background-color: #E9E0CC;
-   
+    background-color: transparent;
+  
+}
+
+.portfolioSlider-button p:hover{
+    background-color: #435877;
+    color: #B4A890;
+    border: 2px solid #B4A890;
+    transition: 0.7s;
 }
 
 .portfolioSlider-button p{
@@ -55,6 +62,8 @@
     background-color: #E9E0CC;
     width: 100%;
     color: #435877;
+    transition: 0.7s;
+   
 
     
 }
@@ -79,6 +88,7 @@
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
+    margin-top: 20px;
    
     display: flex;
     flex-direction: row;
@@ -89,9 +99,9 @@
 .portfolioSlider-line{
     margin-top: 40px;
     width: 12%;
-    height: 0px;
-    border: #B4A890 solid 1.5px;
-    background-color: #B4A890;
+    height: 20px;
+    border-bottom: #B4A890 solid 4px;
+    /* background-color: #B4A890; */
     cursor: pointer;
     
 }

@@ -14,17 +14,20 @@ function PortfolioHeader() {
      
 
      useEffect(() => {
+
+        
         gsap.fromTo(PortEmptyLeftRef.current,  {
-            
-                width: "0%"
+            scaleX:0
             },
             {
-             width: "31%",
-             duration:1,
+           
+             scaleX:1,
+             transformOrigin: "left right",
+             duration:0.7,
              scrollTrigger:{
                  
                  trigger:".portfolio-container",
-                 start:" 50% 20% ",
+                 start:" 75% 20% ",
                  end:"50% 90%",
                 //  markers:true
              }
@@ -37,16 +40,26 @@ function PortfolioHeader() {
 
             gsap.fromTo(PortEmptyRightRef.current,  {
             
-                width: "0%"
+                
+               
+                scaleX:0,
+               
             },
             {
-             width: "31%",
-             duration:1,
+            
+           
+            scaleX:1,
+           
+             duration:0.7,
+             transformOrigin: "0 0",
+            
              scrollTrigger:{
                 
                  trigger:".portfolio-container",
-                 start:" 50% 20% ",
+                 start:" 75% 20% ",
                  end:"50% 90%",
+                 
+                 
                 //  markers:true
              }
             

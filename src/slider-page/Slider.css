@@ -49,10 +49,13 @@
 }
  
 .slider-empty-div{
+     margin-top: 20px;
+    margin-bottom: 20px;
      width: 20%;
-     height: 3px;
+     height: 15px;
+     padding-bottom: 5px;
      cursor: pointer;
-     background: #B4A890;
+     border-bottom: 4px solid #B4A890;
  
  }
 
@@ -112,7 +115,7 @@
      }
 
      .order-button-container-mobile {
-          bottom: -50%;
+          bottom: -70%;
           display: block;
       }
 
@@ -138,7 +141,7 @@
      }
 
      .order-button-container-mobile {
-          bottom: -50%;
+          bottom: -80%;
           display: block;
       }
 
@@ -164,7 +167,7 @@
      }
 
      .order-button-container-mobile {
-          bottom: -40%;
+          bottom: -60%;
           display: block;
       }
 

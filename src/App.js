@@ -1,5 +1,5 @@
 import React, {  Suspense } from "react";
-
+import {Route,Switch,Redirect} from "react-router-dom"
 import Advantages from './Advantages/Advantages';
 import './App.css';
 import Team from './Team/Team';
@@ -11,12 +11,16 @@ import SliderPage from './slider-page/SliderPage';
 import Project from './Project/Project';
 import Map from './Map/Map';
 
+import Team4 from "./Team4/Team4";
+
+
+
+
 function App() {
   return (
     <div className="App">
-     <Header/>
-
-     
+      
+     <Header/>   
      <SliderPage/>
      <Portfolio/>
      <Form/>
@@ -25,6 +29,9 @@ function App() {
      <Services/>
      <Project/>
      <Map/>
+    
+     {/* <Team4/> */}
+     
     </div>
   );
 }

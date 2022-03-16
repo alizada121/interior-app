@@ -18,11 +18,12 @@ function Services() {
     useEffect(() => {
        gsap.fromTo(leftServRef.current,  {
            
-               width: "0%"
+              scale:0
            },
            {
-            width: "31%",
+           scale:1,
             duration:1,
+            transformOrigin: "left right",
             scrollTrigger:{
                 
                 trigger:".services-container",
@@ -39,11 +40,12 @@ function Services() {
 
            gsap.fromTo(rightServRef.current,  {
            
-               width: "0%"
+               scale:0
            },
            {
-            width: "31%",
+            scale:1,
             duration:1,
+            transformOrigin: "0 0",
             scrollTrigger:{
                
                 trigger:".services-container",
