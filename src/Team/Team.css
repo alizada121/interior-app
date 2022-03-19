@@ -610,12 +610,51 @@ swiper {
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
 
-    .team-container{
+    .team-text {
+        width: 50%;
+        margin-left: 2%;
+        margin-right: 8%;
+    }
+
+    .team-text-para{
+        font-size: 15px;
+    }
+
+    .team-member-text h4 {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 24px;
+        text-align: left;
+        color: #9C917B;
+        margin: 0;
+        margin-bottom: 8px;
+        margin-top: 22px;
+    }
+
+    .team-member-text p {
+        font-family: Montserrat;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 11px;
+        text-align: left;
+        color: #9C917B;
+        margin: 0;
+    }
+
+    .team-heading h1 {
+      
+        font-size: 25px;
+    }
+
+    /* .team-container{
         width: 100%;
         margin: 0;
         margin-top: 20%;
     }
-    
+     */
    
    
 
@@ -627,7 +666,7 @@ swiper {
         width: 60%;
     } */
 
-    .changable-team{
+    /* .changable-team{
         flex-direction: column-reverse;
         width: 100%;
         margin: 0;
@@ -670,12 +709,17 @@ swiper {
         font-size: 18px;
         margin-top: 20px;
 
-    }
+    } */
     
  }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+    .team-text {
+        width: 50%;
+        margin-left: 4%;
+        margin-right: 13%;
+    }
     
-    .team-container{
+    /* .team-container{
         width: 100%;
         margin: 0;
         margin-top: 20%;
@@ -739,7 +783,7 @@ swiper {
         font-size: 18px;
         margin-top: 20px;
 
-    }
+    } */
     
 }
 

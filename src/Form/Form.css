@@ -52,6 +52,7 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    /* margin-left: 2%; */
     
 }
 .form-row2 select{
@@ -60,7 +61,7 @@ form{
     
 }
 
-.submit{
+.submit {
     width: 41%;
     padding: 10px;
     background-color: #435877;
@@ -114,6 +115,7 @@ font-weight: normal;
 font-size: 15px;
 line-height: 150%;
 width: 60%;
+margin-left: 10%;
 /* or 22px */
 
 

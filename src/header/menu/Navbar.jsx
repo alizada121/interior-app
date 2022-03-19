@@ -3,6 +3,8 @@ import {Link,Route} from 'react-router-dom'
 import Contact from './Contact'
 import Menu from './Menu'
 
+import { gsap } from "gsap";
+
 
 
 import "../menu/Navbar.css"
@@ -21,9 +23,13 @@ function Navbar() {
 
     if(open){
       console.log("Salam")
-      
 
+  gsap.from(MobileMenuRef.current, {y:-20,duration:1});
+
+      
+         
       MobileMenuRef.current.style.display="block"
+
       setOpen(false)
     }else{
       console.log("sagol")
@@ -59,11 +65,18 @@ function Navbar() {
 
 
     </div>
+
+    <div className='navbar-empty'>
+
+    </div>
     
 
     
 
     </div>
+
+    
+   
 
     
    

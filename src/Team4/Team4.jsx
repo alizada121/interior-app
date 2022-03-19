@@ -242,7 +242,7 @@ const click24Mob=()=>{
   // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${div2height }px, 0px)`,duration:1});
   // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${ height * 0.33 }px, 0px)`,duration:1});
 
-  gsap.to(changable14Ref.current, { transform:" translate3d(0px, -660px, 0px)",duration:1});
+  gsap.to(changable14Ref.current, { transform:` translate3d(0px,-${ textHeight + (textHeight * 0.17) + imgHeight}px, 0px) `,duration:1});
 
 
 
@@ -273,7 +273,12 @@ const click34Mob=()=>{
   // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${ height * 0.50}px, 0px)`,duration:1});
   // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${div2height*2 }px, 0px)`,duration:1});
   // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${ height * 0.66}px, 0px)`,duration:1});
-  gsap.to(changable14Ref.current, { transform:" translate3d(0px, -1332px, 0px)",duration:1});
+  // gsap.to(changable14Ref.current, { transform:" translate3d(0px, -1332px, 0px)",duration:1});
+
+  // gsap.to(changable14Ref.current, { transform:` translate3d(0px,-${ textHeight + imgHeight}px, 0px) `,duration:1});
+
+  gsap.to(changable14Ref.current, { transform:` translate3d(0px,-${ 2 * (textHeight + (textHeight * 0.1) + imgHeight)}px, 0px) `,duration:1});
+
 
 
 
@@ -300,9 +305,8 @@ const click34Mob=()=>{
 
 const click44Mob=()=>{
 
-  // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${div2height}px, 0px)`,duration:1});
-  // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${div2height*3 }px, 0px)`,duration:1});
-  gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${ height * 0.99}px, 0px)`,duration:1});
+  gsap.to(changable14Ref.current, { transform:` translate3d(0px,-${ 3* (textHeight + (textHeight * 0.07) + imgHeight)}px, 0px) `,duration:1});
+
 
 
   // Team4Ref.current.style.marginTop="-60%"
@@ -381,8 +385,8 @@ const click44Mob=()=>{
            </div>         
 
             <div className='team-image-container' ref={imageeeRef}>
-                <div className='team-image'>
-                  <img src={team1}></img>         
+                <div className='team-image' >
+                  <img src={team1} ></img>         
 
                 </div>
             </div>          

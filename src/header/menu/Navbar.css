@@ -2,7 +2,15 @@
 .navbar-container{
     width: 60%;
     position: relative;
+    display: flex;
+    flex-direction: column;
+   
     
+}
+
+.navbar-empty{
+    position: relative;
+    height: 15px;
 }
 .navbar{
     display: flex;
