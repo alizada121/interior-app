@@ -45,6 +45,7 @@
 
 .team-heading{
     width: 15%;
+    margin-bottom: 5%;
 }
 
 .team-heading h1{
@@ -96,7 +97,7 @@
 
 .team-text{
     width: 50%;
-    margin-left: 7%;
+    margin-left: 8%;
     margin-right: 13%;
 }
 
@@ -570,7 +571,10 @@ swiper {
     }
 
     .team-list{
-      display: none;
+       width: 100%;
+      
+        display: flex;
+        flex-direction: row;
         
     }
 
@@ -584,14 +588,93 @@ swiper {
         margin-top: 20px;
 
     }
-  
 
+    .team-empty-left-cont{
+        display: none;
+    }
+
+    .team-empty-right-cont{
+        width: 68%;
+    }
+
+    .team-header{
+        justify-content: space-between;
+    }
+
+    .team-empty-right{
+        width: 100%;
+    }
     
 
     
 }
 @media screen and (min-width: 414px) and (max-width: 768px) {
 
+    .team-container{
+        width: 100%;
+        margin: 0;
+        margin-top: 20%;
+    }
+    
+   
+   
+
+    /* .team-heading{
+        width: 30%;
+    }
+
+    .team-empty-right{
+        width: 60%;
+    } */
+
+    .changable-team{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+    }
+
+    .team-text{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .team-image-container{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 8%;
+    }
+
+    .team-general{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .team-list-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .team-list{
+        display: none;
+        
+    }
+
+    .team-text-para p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .team-member-text h4{
+        font-size: 18px;
+        margin-top: 20px;
+
+    }
+    
+ }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
     .team-container{
         width: 100%;
         margin: 0;
@@ -658,38 +741,140 @@ swiper {
 
     }
     
- }
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-    
-    .team-list p {
-       
-        font-size: 13px;
-        line-height: 17px;
-    }
-
-    .team-text-para {
-       
-        font-size: 13px;
-    }
-
-    .team-member-text h4 {
-        font-size: 18px;
-    }
-    
-    .team-heading {
-        width: 20%;
-    }
-    .team-list-mobile{
-        display: none;
-    }
-    
-    
 }
 
 @media screen and (min-width: 1024px) {
     .team-list-mobile{
         display: none;
     }
+ 
+    /* .team-container{
+        width: 100%;
+        margin: 0;
+        margin-top: 20%;
+    } */
+     
+   
+   
+
+    /* .team-heading{
+        width: 30%;
+    }
+
+    .team-empty-right{
+        width: 60%;
+    } */
+
+    /* .changable-team{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+    }
+
+    .team-text{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .team-image-container{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 8%;
+    }
+
+    .team-general{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .team-list-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .team-list{
+        display: none;
+        
+    }
+
+    .team-text-para p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .team-member-text h4{
+        font-size: 18px;
+        margin-top: 20px;
+
+    } */
+    
+ }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    
+    
+    /* .team-container{
+        width: 100%;
+        margin: 0;
+        margin-top: 20%;
+    } */
+     
+   
+   
+
+    /* .team-heading{
+        width: 30%;
+    }
+
+    .team-empty-right{
+        width: 60%;
+    } */
+
+    /* .changable-team{
+        flex-direction: column-reverse;
+        width: 100%;
+        margin: 0;
+    }
+
+    .team-text{
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+
+    .team-image-container{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 8%;
+    }
+
+    .team-general{
+        flex-direction: column-reverse;
+        margin-top: 40px;
+    }
+
+    .team-list-container{
+        width: 100%;
+        margin: 0;
+    }
+
+    .team-list{
+        display: none;
+        
+    }
+
+    .team-text-para p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+
+    .team-member-text h4{
+        font-size: 18px;
+        margin-top: 20px;
+
+    } */
     
 }
 

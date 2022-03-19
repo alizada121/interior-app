@@ -9,15 +9,16 @@
 
 .changable-team-cont{
     width: 70%;
+    /* padding-top: 6%; */
     position: relative;
-    height: 500px;
+    /* height: 500px; */
     /* margin-top: 8%; */
 }
 
 .changable-team{
    
     width: 100%;
-    margin-top: 10%;
+    /* margin-top: 10%; */
     /* margin-bottom: 10%; */
     transition: 2.2s;
     /* height: 25%; */
@@ -28,10 +29,17 @@
     display: flex;
     flex-direction: row;
     
+    
 }
+
+#teamiki,#teamuch,#teamdort{
+    opacity: 0;
+}
+
+
 .team-list-cont{
     width:30% ;
-    margin-top: 5%;
+    /* margin-top: 5%; */
     position: absolute;
     right: 0%;
 
@@ -51,6 +59,7 @@
 .team-list-mobile4{
     width: 90%;
     margin-left: 5%;
+     color: #CCD7E9;
 }
 .team-list-mobile4 p{
     font-family: 'Montserrat';
@@ -61,7 +70,7 @@
     /* identical to box height */
     
     background-color: transparent;
-    color: #CCD7E9;
+   
 }
 
 .swiper-slide{
@@ -85,4 +94,106 @@
     .changable-team-cont{
         width: 100%;
     }
+
+    .changable-team{
+        /* margin-bottom: 10%; */
+    }
+
+    .team2-cont{
+        height: 780px;
+    }
 }
+
+@media screen and (min-width: 370px) and (max-width: 414px) {
+
+    .team-list4{
+        display: none;
+    }
+    
+    .team-list-mobile4{
+        display: flex;
+    }
+
+    .team2{
+        flex-direction: column;
+    }
+
+    .team2-cont{
+        height: 830px;
+    }
+
+    .changable-team-cont{
+        width: 100%;
+    }
+
+   
+}
+
+@media screen and (min-width: 414px) and (max-width: 768px) {
+
+    .team-list4{
+        display: none;
+    }
+    
+    .team-list-mobile4{
+        display: flex;
+    }
+
+    .team2{
+        flex-direction: column;
+    }
+
+    .team2-cont{
+        height: 0;
+        min-height: 920px;
+    }
+
+    .changable-team-cont{
+        width: 100%;
+    }
+
+    
+
+    .team-image-container {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        /* margin-bottom: 8%; */
+    }
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .team-list4{
+        display: flex;
+    }
+    
+    .team-list-mobile4{
+        display: none;
+    }
+
+    .team2{
+        flex-direction: column;
+    }
+
+    .team2-cont{
+        height: 0;
+        min-height: 980px;
+    }
+
+    .changable-team-cont{
+        width: 100%;
+    }
+
+   
+
+    .team-image-container {
+        width: 70%;
+        margin-left: 15%;
+        margin-right: 15%;
+        /* margin-bottom: 8%; */
+    }
+    
+}
+
