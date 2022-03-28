@@ -52,7 +52,7 @@ form{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    /* margin-left: 2%; */
+    margin-left: 2%;
     
 }
 .form-row2 select{

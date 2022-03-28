@@ -24,7 +24,7 @@ function Navbar() {
     if(open){
       console.log("Salam")
 
-  gsap.from(MobileMenuRef.current, {y:-20,duration:1});
+      gsap.fromTo(MobileMenuRef.current, {y:-20,opacity:1,duration:1},{y:0});
 
       
          
@@ -33,8 +33,9 @@ function Navbar() {
       setOpen(false)
     }else{
       console.log("sagol")
+      gsap.to(MobileMenuRef.current, {y:-20,display:"none",opacity:0,duration:1});
 
-      MobileMenuRef.current.style.display="none"
+      // MobileMenuRef.current.style.display="none"
       setOpen(true)
       
     }
