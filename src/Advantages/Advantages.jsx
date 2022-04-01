@@ -27,9 +27,9 @@ function Advantages() {
              scrollTrigger:{
                 
                  trigger:".advantages-container",
-                 start:" 15% 70% ",
-                 end:"80% 90%",
-                //  markers:true
+                 start:"60% 70% ",
+                 end:"80% 70%",
+                //  markers:true 
              }
             
             

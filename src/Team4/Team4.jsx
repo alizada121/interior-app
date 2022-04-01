@@ -102,9 +102,9 @@ function Team4() {
   }
   
   const click24=()=>{
-    gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${height*0.25}px, 0px)` ,duration:1});
+    // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${height*0.25}px, 0px)` ,duration:1});
 
-    // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${divHeight }px, 0px)` ,duration:1});
+    gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${textHeight }px, 0px)` ,duration:1});
     // Team2Ref.current.style.position="absolute"
     // gsap.to(changable14Ref.current, { transform:" translate3d(0px, -440px, 0px)",duration:1});
     // gsap.to(Team1Ref.current, {position:"absolute", duration:1});
@@ -136,8 +136,8 @@ function Team4() {
   }
 
   const click34=()=>{
-    gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${ height * 0.5}px, 0px)`,duration:1});
-    // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${divHeight * 2.5}px, 0px)` ,duration:1});
+    // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${ height * 0.5}px, 0px)`,duration:1});
+    gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${textHeight * 2}px, 0px)` ,duration:1});
 
     // Team1Ref.current.style.marginTop="0%"
     // Team2Ref.current.style.marginTop="0"
@@ -174,8 +174,8 @@ function Team4() {
 
 
   const click44=()=>{
-    gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${ height * 0.75 }px, 0px)`,duration:1});
-    // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${divHeight * 3.5}px, 0px)` ,duration:1});
+    // gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${ height * 0.75 }px, 0px)`,duration:1});
+    gsap.to(changable14Ref.current, { transform:` translate3d(0px, -${textHeight * 3}px, 0px)` ,duration:1});
 
     // gsap.to(changable14Ref.current, { transform:" translate3d(0px, -1330px, 0px)",duration:1});
     // gsap.to(changable14Ref.current, { transform:" translate3d('0%', '75%', '0%')",duration:1});
