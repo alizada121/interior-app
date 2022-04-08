@@ -1,5 +1,8 @@
 import React, {useRef} from 'react'
 import slider1 from '../assets/slider1.png'
+import slider2 from '../assets/interior-project1.png'
+import slider3 from '../assets/interior-project2_ccexpress.png'
+import slider4 from '../assets/interior-project3_ccexpress.png'
 
 import "././Slider.css"
 
@@ -14,6 +17,8 @@ function Slider() {
   const emptyDivRef2=useRef();
   const emptyDivRef3=useRef();
   const emptyDivRef4=useRef();
+
+
 
   const sliderClick1= () =>{
       console.log("hello")
@@ -75,10 +80,10 @@ function Slider() {
     
         <div className='slider'>
           <div className='slider-img'>
-            <img src={slider1} ref={sliderRef1} className="default-img"></img>
-            <img  src={slider1} ref={sliderRef2}></img>
-            <img src={slider1} ref={sliderRef3}></img>
-            <img src={slider1} ref={sliderRef4}></img>
+            <img src={slider1} ref={sliderRef1} id="default-img"></img>
+            <img  src={slider2} ref={sliderRef2}></img>
+            <img src={slider3} ref={sliderRef3}></img>
+            <img src={slider4} ref={sliderRef4}></img>
 
 
             <div className='slider-description'>
@@ -86,7 +91,7 @@ function Slider() {
             </div>
 
             <div className='slider-empty-div-container'>
-               <div className='slider-empty-div' onClick={sliderClick1} ref={emptyDivRef1}></div>
+               <div className='slider-empty-div' onClick={sliderClick1} ref={emptyDivRef1} id="default-line"></div>
                <div className='slider-empty-div' onClick={sliderClick2} ref={emptyDivRef2}></div>
                <div className='slider-empty-div'  onClick={sliderClick3} ref={emptyDivRef3}></div>
                <div className='slider-empty-div'  onClick={sliderClick4} ref={emptyDivRef4}></div>
@@ -94,6 +99,8 @@ function Slider() {
 
             <div className='order-button-container-mobile'>
                 <button className='order-button-mobile' ><p className='order-button-text-mobile'>Order a project</p></button>
+
+                
             </div>
 
 

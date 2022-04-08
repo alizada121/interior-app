@@ -1,6 +1,7 @@
 .menu-container{
     width: 40%;
     
+    
 }
 
 
@@ -23,7 +24,7 @@
 
 .main{
     color: #435877;
-    /* text-decoration: underline; */
+    text-decoration: none;
     font-weight: 600;
     transition: 0.5s;
     margin-right: 10px;
@@ -52,6 +53,8 @@
 }
 
 .portfolio{
+    color: #435877;
+    text-decoration: none;
     margin-right: 10px;
 }
 
@@ -76,6 +79,11 @@
   
 }
 
+#portfolio-menu{
+    color: #435877;
+    text-decoration:none;
+}
+
 .services:hover{
     color: #6B7E9B;
     font-family: 'Montserrat', sans-serif;
@@ -93,8 +101,16 @@
     background-color:#435877 ;
 }
 
-.services p{
+#services p{
     margin:0;
+    text-decoration: dashed;
+   
+    
+}
+#services{
+    color: #435877;
+    text-decoration: dashed  ;
+    text-transform: none;
     
 }
 

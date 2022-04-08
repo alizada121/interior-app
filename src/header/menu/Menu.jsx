@@ -1,6 +1,7 @@
 import React,{useRef,useState} from 'react'
 import "../menu/Menu.css"
 import { gsap } from "gsap";
+import { Link } from "react-router-dom";
 
 function Menu() {
 
@@ -130,19 +131,25 @@ function Menu() {
   return (
     <div className='menu-container'>
         <div className='menu'>
-            
+                
                 <div className='main' onClick={menuClick1} onMouseEnter={mainOnHover} onMouseLeave={mainOffHover} ref={mainRef}>
                   <p>Main</p>
                   <div className='main-empty' ref={mainEmptyRef} ></div>
                 </div>
-                <div className='services'  onClick={menuClick2} onMouseEnter={servicesOnHover} onMouseLeave={servicesOffHover}  ref={servicesRef}>
+
+                <Link to="/services" style={{textDecoration: "none"}}>
+                <div className='services' id="services" onClick={menuClick2} onMouseEnter={servicesOnHover} onMouseLeave={servicesOffHover}  ref={servicesRef}>
                   <p>Services</p>
                   <div className='services-empty'  ref={servicesEmptyRef}></div>
                 </div>
-                <div className='portfolio-menu'  onClick={menuClick3} onMouseEnter={portfolioOnHover} onMouseLeave={portfolioOffHover} ref={portfolioRef}>
+                </Link>
+
+                <Link to="/portfolio" style={{textDecoration: "none"}}>
+                <div className='portfolio-menu' id="portfolio-menu"  onClick={menuClick3} onMouseEnter={portfolioOnHover} onMouseLeave={portfolioOffHover} ref={portfolioRef}>
                   <p>Portfolio</p>
                   <div className='portfolio-empty'  ref={portfolioEmptyRef}></div>
                   </div>
+                </Link>
            
         </div>
 

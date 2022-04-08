@@ -81,6 +81,96 @@
    transition: 0.5s;
 }
 
+
+.order-button-tap-container{
+    transform: translateY(-10%);
+    width: 90%;
+    background-color: #CCD7E9;
+    border: #435877 2px solid;
+    display: none;
+    opacity: 1;
+}
+
+.order-button-tap{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.text-img{
+   position: absolute;
+   top: 0;
+   opacity: 0;
+   left: 30%;
+}
+
+.order-button-tap h4{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #435877;
+}
+
+.order-button-tap p{
+    width: 80%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #435877;
+}
+
+.order-button-tap-form{
+    display: flex;
+    flex-direction: column;
+}
+
+.order-button-tap-form input{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #435877;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+
+}
+
+.order-button-tap-form select{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #9C917B;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+}
+
+#order-submit{
+    margin-bottom:20%;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    background-color: #435877;
+    color: #FEFCF6;
+    border: none;
+}
+
 @media screen and (min-width: 320px) and (max-width: 370px) {
     .sliderText-container{
         width: 90%;
