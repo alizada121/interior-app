@@ -8,7 +8,7 @@ import { gsap } from "gsap";
 
 
 import "../menu/Navbar.css"
-import { compose } from 'redux'
+
 
 
 
@@ -58,9 +58,15 @@ function Navbar() {
    
     <div className='mobile-menu-container' ref={MobileMenuRef}> 
     <div className='mobile-menu'>
-     
-        <div className='mobile-menu-div'><p>Services</p></div>
+         
+         <Link to="/services" style={{textDecoration: "none"}}>
+         <div className='mobile-menu-div'><p>Services</p></div>
+         </Link>
+        
+
+         <Link to="/portfolio" style={{textDecoration: "none"}}>
         <div className='mobile-menu-div'><p>Portfolio</p></div>
+        </Link>
         <div className='mobile-menu-div'><p>Contact</p></div>
      
 

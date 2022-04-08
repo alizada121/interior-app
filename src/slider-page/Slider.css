@@ -59,10 +59,19 @@
  
  }
 
-.default-img{
+#default-img{
      position: relative !important;
+     opacity: 1;
 }
 
+#default-line{
+     border-bottom: 4px solid #435877;
+}
+
+
+.slider-img img{
+     opacity: 0;
+}
 .order-button-container-mobile{
      width: 100%;
      position: absolute;
@@ -97,6 +106,7 @@
 .order-button-text-mobile:hover{
     
      color: #435877;
+     background-color: #FEFCF6;
      transition: 0.3s;
 }
 @media screen and (min-width: 320px) and (max-width: 370px) {

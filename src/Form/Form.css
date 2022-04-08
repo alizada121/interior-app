@@ -12,6 +12,7 @@
     padding-top: 48px;
     padding-bottom: 48px;
     background-color: #EFEADE;
+    position: relative;
 
    
 }
@@ -76,6 +77,12 @@ form{
     border: none;
 }
 
+.successForm{
+    position: absolute;
+    top: 10%;
+    left: 25%;
+    opacity: 0;
+}
 .submit:hover{
 
     color: #435877;
@@ -90,6 +97,7 @@ form{
 .form-text-container{
     width: 50%;
     margin-left: 10%;
+   
 }
 
 .form-text-heading{

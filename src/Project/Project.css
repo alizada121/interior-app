@@ -8,10 +8,18 @@
     background-color: #EFEADE;
     border-top: 1px solid #435877;
     border-bottom: 1.5px solid #435877;
+    position: relative;
 
     
 }
 
+
+.projectSucces{
+    position: absolute;
+    top: 10%;
+    right: 23%;
+    opacity: 0;
+}
 
 
 .project-image{
